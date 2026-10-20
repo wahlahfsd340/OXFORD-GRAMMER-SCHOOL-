@@ -1,0 +1,37 @@
+// School ki default settings. Admin panel > School settings se badli hui values in se upar chalti hain.
+module.exports = {
+  name: "Oxford Grammar School",
+  tagline: "Excellence in Education, Character for Life",
+  phone: "+92 300 1551340",
+  whatsapp: "+92 300 1551340",
+  email: "wahlahfsd340@gmail.com",
+  address: "STREET # 7 TARIQABAD, FAISALABAD , Pakistan":
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d298.0363884372449!2d73.10334121844673!3d31.423988400772203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922683d185f8577%3A0x7ecb28b355177ade!2sStreet%20No.%207%2C%20Tariqabad%2C%20Faisalabad%2C%20Pakistan!5e1!3m2!1sen!2sus!4v1792475855672!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  principal: "SIR RIZWAAN SAHAB ",
+  students: "1,000+",
+  teachers: "25+",
+  years: "10+",
+  classes: [
+    "Playgroup",
+    "Nursery",
+    "Prep",
+    "Class 1",
+    "Class 2",
+    "Class 3",
+    "Class 4",
+    "Class 5",
+    "Class 6",
+    "Class 7",
+    "Class 8",
+    "Class 9",
+    "Class 10",
+  ],
+  open_time: "08:00",
+  close_time: "14:00",
+  off_days: "Sunday",
+  tz: "Asia/Karachi",
+  admin_user: "admin",
+  ai_model: process.env.AI_MODEL || "claude-haiku-5-5",
+  ai_daily: 300,
+  ai_notes: "",
+};
